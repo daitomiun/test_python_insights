@@ -1,0 +1,11 @@
+name,type,base_stat_attack,base_stat_hp,weight
+pikachu,Electric,30,3,6.0
+ditto,Normal,80,288,4.0
+charmander,Fire,20,309,8.5
+bulbasaur,Grass/Poison,70,318,6.9
+venusaur,Grass/Poison,23,535,100.0
+charizard,Fire/Flying,87,534,90.5
+wartortle,Water,30,405,22.5
+kakuna,Bug/Poison,56,205,10.0
+beedrill,Bug/Poison,10,395,29.5
+pidgey,Normal/Flying,20,251,1.8
