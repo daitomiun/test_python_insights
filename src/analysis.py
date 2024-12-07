@@ -3,6 +3,7 @@ import csv
 import random
 import json
 import sys
+import os
 # I could'nt find a groceries api that was able to do the requests needed in the timefrima of 2 minutes and many were blocked for use after just 20 request, so I'm doing the following
 
 # This is a Pokemon battle insights where it reports the effectiveness of your pokemon against random pokemon from the pokeAPI
@@ -25,7 +26,7 @@ pokemons_to_battle = [
 orig_stdout = sys.stdout
 csv_args = sys.argv[1]
 
-report = open('../report.md', "w")
+report = open(os.getcwd() + '//report.md', "w")
 sys.stdout = report
 
 

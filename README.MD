@@ -18,7 +18,7 @@ cd src
 
 Run the command
 ```bash
-python3 analysis.py ../data/my_pokemons.csv <== sustitution of products
+python3 src/analysis.py data/my_pokemons.csv
 ```
 
 then in your local machine you will get a report of the battle insight like the one shown in the report in the github repo!
