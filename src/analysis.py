@@ -64,7 +64,7 @@ with open(csv_args, mode='r') as file:
         report.write("\n")
 
         if our_pokemon_weight < pokemon_battle_weight:
-            print("is too light", our_pokemon_weight, "for",pokemon_battle["name"] ,pokemon_battle_weight)
+            print("is lighter", our_pokemon_weight, "than",pokemon_battle["name"] ,pokemon_battle_weight)
         else:                                                                      
             print("is heavier", our_pokemon_weight, "than", pokemon_battle["name"] ,pokemon_battle_weight)
 
