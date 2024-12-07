@@ -12,11 +12,8 @@ also the random pokemons extend from the 20 pokemons given inside the script
 1. Read and process the CSV data
 
 After cloning the repo, enter to the src directory:
-```bash
-cd src
-```
-
 Run the command
+
 ```bash
 python3 src/analysis.py data/my_pokemons.csv
 ```
