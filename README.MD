@@ -6,14 +6,17 @@
 
 1. Read and process the CSV data
 
+After cloning the repo, enter to the src directory:
+```bash
+cd src
+```
+
 Run the command
-```shell
-python3 analysis.py ../data/my_pokemons.csv 
+```bash
+python3 analysis.py ../data/my_pokemons.csv <== sustitution of products
 ```
 
 then in your local machine you should get a report of the battle insight like the one shown in the report in the github repo!
-
-
 2. Choose and integrate ONE external data source
  - Could be pricing data, market trends, economic indicators, etc.
  - Document why you chose this source
