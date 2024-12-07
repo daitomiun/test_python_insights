@@ -2,7 +2,12 @@
 
 > Due to not finding a suitable API thaks to request limiting in many products api's I used the pokeApi to get a battle insight 
 
+# Code explanation
+I parse the csv and fetched the pokeAPI to get battle insight in my code and generate a report
 
+# issues or limitations
+here it will accept the CSV used in my_pokemons.csv file
+also the random pokemons extend from the 20 pokemons given inside the script
 
 1. Read and process the CSV data
 
@@ -16,7 +21,7 @@ Run the command
 python3 analysis.py ../data/my_pokemons.csv <== sustitution of products
 ```
 
-then in your local machine you should get a report of the battle insight like the one shown in the report in the github repo!
+then in your local machine you will get a report of the battle insight like the one shown in the report in the github repo!
 2. Choose and integrate ONE external data source
  - Could be pricing data, market trends, economic indicators, etc.
  - Document why you chose this source
@@ -34,3 +39,7 @@ then in your local machine you should get a report of the battle insight like th
 link
 
 Right here!
+
+# api credentials
+No api keys needed
+

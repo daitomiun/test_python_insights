@@ -22,12 +22,16 @@ Required API keys/credentials
 Brief explanation of your approach
 Any known issues or limitations
 Time spent on each component
+# DONE
+I added the required parts for the readme
 
 3. report.md
 Summary of data cleaning steps
 Key insights discovered
 Visualization (if any)
 Recommendations based on findings
+## DONE
+I added the recomended insights for the report
 
 
 4. External data source documentation
