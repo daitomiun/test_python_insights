@@ -72,8 +72,10 @@ with open(csv_args, mode='r') as file:
             print("has more attack", our_pokemon_base_stat_attack, "than", pokemon_battle["name"], pokemon_battle_attack)
 
 print("---------------------")
-print("# ReportFinished!")
+print("# Report Finished!")
 
 sys.stdout = orig_stdout
 report.close()
+
+print("Report created at reports.md")
 
