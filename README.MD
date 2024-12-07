@@ -1,6 +1,6 @@
 # Pokemon battle insights
 
-> Due to now finding a suitable API thaks to request limiting in many products api's I used the pokeApi to get a battle insight 
+> Due to not finding a suitable API thaks to request limiting in many products api's I used the pokeApi to get a battle insight 
 
 
 
