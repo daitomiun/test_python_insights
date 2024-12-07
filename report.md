@@ -1,53 +1,84 @@
 # Battle Insights!!
 ---------------------
+
 Our pikachu
-3 has lower health than venusaur 80
-is too light 6 for venusaur 1000
-has less attack 30 than venusaur 82
----------------------
-Our ditto
-288 has more health than bulbasaur 45
-is too light 4 for bulbasaur 69
-has more attack 80 than bulbasaur 49
----------------------
-Our charmander
-309 has more health than charizard 78
-is too light 8 for charizard 905
-has less attack 20 than charizard 84
----------------------
-Our bulbasaur
-318 has more health than pidgey 40
-is too light 6 for pidgey 18
-has more attack 70 than pidgey 45
----------------------
-Our venusaur
-535 has more health than charmander 39
-is heavier 100 than charmander 85
-has less attack 23 than charmander 52
----------------------
-Our charizard
-534 has more health than bulbasaur 45
-is heavier 90 than bulbasaur 69
-has more attack 87 than bulbasaur 49
----------------------
-Our wartortle
-405 has more health than charizard 78
-is too light 22 for charizard 905
+has lower health 3 than charizard 78
+
+is too light 6 for charizard 905
+
 has less attack 30 than charizard 84
 ---------------------
+
+Our ditto
+has more health 288 than charizard 78
+
+is too light 4 for charizard 905
+
+has less attack 80 than charizard 84
+---------------------
+
+Our charmander
+has more health 309 than beedrill 65
+
+is too light 8 for beedrill 295
+
+has less attack 20 than beedrill 90
+---------------------
+
+Our bulbasaur
+has more health 318 than charizard 78
+
+is too light 6 for charizard 905
+
+has less attack 70 than charizard 84
+---------------------
+
+Our venusaur
+has more health 535 than kakuna 45
+
+is heavier 100 than kakuna 100
+
+has less attack 23 than kakuna 25
+---------------------
+
+Our charizard
+has more health 534 than pikachu 35
+
+is heavier 90 than pikachu 60
+
+has more attack 87 than pikachu 55
+---------------------
+
+Our wartortle
+has more health 405 than pidgey 40
+
+is heavier 22 than pidgey 18
+
+has less attack 30 than pidgey 45
+---------------------
+
 Our kakuna
-205 has more health than wartortle 59
-is too light 10 for wartortle 225
-has less attack 56 than wartortle 63
+has more health 205 than ditto 48
+
+is too light 10 for ditto 40
+
+has more attack 56 than ditto 48
 ---------------------
+
 Our beedrill
-395 has more health than kakuna 45
-is too light 29 for kakuna 100
-has less attack 10 than kakuna 25
+has more health 395 than beedrill 65
+
+is too light 29 for beedrill 295
+
+has less attack 10 than beedrill 90
 ---------------------
+
 Our pidgey
-251 has more health than charmander 39
+has more health 251 than charmander 39
+
 is too light 1 for charmander 85
+
 has less attack 20 than charmander 52
+
 ---------------------
 # Report Finished!

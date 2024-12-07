@@ -55,22 +55,27 @@ with open(csv_args, mode='r') as file:
 
         # Check pokemon weight, base hp stat and attack stat to see if our pokemon is more effective or not than the one fetch from the pokeAPI
         print("---------------------")
+        report.write("\n")
         print(f"Our {pokemon_name}")
         if our_pokemon_base_stat_hp < pokemon_battle_hp:
-            print(our_pokemon_base_stat_hp,"has lower health than", pokemon_battle["name"],pokemon_battle_hp)
+            print("has lower health", our_pokemon_base_stat_hp,"than", pokemon_battle["name"],pokemon_battle_hp)
         else:                                                                             
-            print(our_pokemon_base_stat_hp,"has more health than", pokemon_battle["name"],pokemon_battle_hp)
+            print("has more health", our_pokemon_base_stat_hp,"than", pokemon_battle["name"],pokemon_battle_hp)
+        report.write("\n")
 
         if our_pokemon_weight < pokemon_battle_weight:
             print("is too light", our_pokemon_weight, "for",pokemon_battle["name"] ,pokemon_battle_weight)
         else:                                                                      
             print("is heavier", our_pokemon_weight, "than", pokemon_battle["name"] ,pokemon_battle_weight)
 
+        report.write("\n")
         if our_pokemon_base_stat_attack < pokemon_battle_attack:
             print("has less attack", our_pokemon_base_stat_attack, "than", pokemon_battle["name"], pokemon_battle_attack)
         else:
             print("has more attack", our_pokemon_base_stat_attack, "than", pokemon_battle["name"], pokemon_battle_attack)
+        report.write("\n")
 
+report.write("\n")
 print("---------------------")
 print("# Report Finished!")
 
