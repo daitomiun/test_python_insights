@@ -1,31 +1,61 @@
 # Pokemon battle insights
 
-> Due to not finding a suitable API thaks to request limiting in many products api's I used the pokeApi to get a battle insight 
+Repository Structure
+├── README.md # Setup & analysis documentation
+├── data/
+│ └── products.csv # Original data file
+├── src/
+│ ├── analysis.py # Your main script
+│ └── utils.py # Any helper functions
+├── requirements.txt # or package.json
+└── report.md # Your data insights
 
-1. Read and process the CSV data
+Required Elements
+1. Working Code
+Must run with a single command (document it in README)
+- Include all requirements/dependencies
+- Handle API keys via environment variables (include .env.example)
 
-Run the command
-```shell
-python3 analysis.py ../data/my_pokemons.csv 
-```
+2. README.md
+Clear setup instructions
+Required API keys/credentials
+Brief explanation of your approach
+Any known issues or limitations
+Time spent on each component
 
-then in your local machine you should get a report of the battle insight like the one shown in the report in the github repo!
+3. report.md
+Summary of data cleaning steps
+Key insights discovered
+Visualization (if any)
+Recommendations based on findings
 
 
-2. Choose and integrate ONE external data source
- - Could be pricing data, market trends, economic indicators, etc.
- - Document why you chose this source
+4. External data source documentation
+Running the Solution
+Your code should:
+Accept the CSV file path as an argument
+Output analysis to report.md
+Handle errors gracefully
+Run in under 2 minutes
 
-> I chose the pokeAPI thanks to the ease of use and rich information about pokemon for my battle insights
+Example run command:
+# Python
+python src/analysis.py data/products.csv
+# JavaScript
+node src/analysis.js data/products.csv
+## DONE
+In the readme i document how to execute it
+Also it executes under 2 minutes
 
-3. Create ONE useful insight
- - Examples: price comparison, trend alert, recommendation system
- - The specific insight is up to you - be creative!
+5. Report Format
+The generated report.md should include:
+1. Data quality issues found
+2. Cleaned data summary
+3. External data integration results
+4. Business insights
+5. Future recommendations
+Keep the output clear and business-focused. Imagine explaining your findings to a
+small business owner.
 
-> In this case I made a battle insights comparasion to random pokemon from the poke API
-> In this case it's related to attack, health and weight of the pokemon
-
-4. Push your work to a Github repository (make sure it’s public!) and submit your
-link
-
-Right here!
+## DONE 
+I've added the suggested insights for the reports
