@@ -57,6 +57,7 @@ with open(csv_args, mode='r') as file:
         print("---------------------")
         report.write("\n")
         print(f"Our {pokemon_name}")
+        report.write("\n")
         if our_pokemon_base_stat_hp < pokemon_battle_hp:
             print("has lower health", our_pokemon_base_stat_hp,"than", pokemon_battle["name"],pokemon_battle_hp)
         else:                                                                             
